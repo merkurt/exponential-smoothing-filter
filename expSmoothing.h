@@ -1,3 +1,6 @@
+#ifndef EXPSMOOTHING
+#define EXPSMOOTHING
+
 #include <stdint.h>
 
 typedef struct{
@@ -12,3 +15,4 @@ float expSmoothingIterate(ExpSmoothing* filter, float input);
 
 float expSmoothingSet(ExpSmoothing* filter, float output);
 
+#endif
